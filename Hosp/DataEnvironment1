@@ -1,0 +1,784 @@
+VERSION 5.00
+Begin {C0E45035-5775-11D0-B388-00A0C9055D8E} DataEnvironment1 
+   ClientHeight    =   7500
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   7185
+   _ExtentX        =   12674
+   _ExtentY        =   13229
+   FolderFlags     =   1
+   TypeLibGuid     =   "{5CE81B57-8BCD-11D8-AEC4-FDA83CC6417C}"
+   TypeInfoGuid    =   "{5CE81B58-8BCD-11D8-AEC4-FDA83CC6417C}"
+   TypeInfoCookie  =   0
+   Version         =   4
+   NumConnections  =   1
+   BeginProperty Connection1 
+      ConnectionName  =   "Connection1"
+      ConnDispId      =   1001
+      SourceOfData    =   3
+      ConnectionSource=   "Provider=Microsoft.Jet.OLEDB.3.51;Persist Security Info=False;Data Source=E:\Hospital\Hospital.mdb"
+      Expanded        =   -1  'True
+      QuoteChar       =   96
+      SeparatorChar   =   46
+   EndProperty
+   NumRecordsets   =   5
+   BeginProperty Recordset1 
+      CommandName     =   "IPBillPayments"
+      CommDispId      =   1002
+      RsDispId        =   1009
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      IsRSReturning   =   -1  'True
+      NumFields       =   21
+      BeginProperty Field1 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "BillDate"
+         Caption         =   "BillDate"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "BillNo"
+         Caption         =   "BillNo"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "CreditYN"
+         Caption         =   "CreditYN"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "Discount"
+         Caption         =   "Discount"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "GrandTotal"
+         Caption         =   "GrandTotal"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "NetValue"
+         Caption         =   "NetValue"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "Bank"
+         Caption         =   "Bank"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DDDate"
+         Caption         =   "DDDate"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   0
+         Size            =   30
+         Scale           =   0
+         Type            =   200
+         Name            =   "DDNo"
+         Caption         =   "DDNo"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   200
+         Name            =   "PayType"
+         Caption         =   "PayType"
+      EndProperty
+      BeginProperty Field13 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "PCODE"
+         Caption         =   "PCODE"
+      EndProperty
+      BeginProperty Field14 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "NAME"
+         Caption         =   "NAME"
+      EndProperty
+      BeginProperty Field15 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "ROOMTYPE"
+         Caption         =   "ROOMTYPE"
+      EndProperty
+      BeginProperty Field16 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "TREATMENTDATE"
+         Caption         =   "TREATMENTDATE"
+      EndProperty
+      BeginProperty Field17 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "WARDJOINED"
+         Caption         =   "WARDJOINED"
+      EndProperty
+      BeginProperty Field18 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DOCEXAMINED"
+         Caption         =   "DOCEXAMINED"
+      EndProperty
+      BeginProperty Field19 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DOA"
+         Caption         =   "DOA"
+      EndProperty
+      BeginProperty Field20 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DIAGNOSIS"
+         Caption         =   "DIAGNOSIS"
+      EndProperty
+      BeginProperty Field21 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "BEDNO"
+         Caption         =   "BEDNO"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   1
+      BeginProperty P1 
+         RealName        =   "Param1"
+         UserName        =   "BillNo"
+         Direction       =   1
+         Precision       =   0
+         Scale           =   0
+         Size            =   0
+         DataType        =   3
+         HostType        =   2
+         Required        =   -1  'True
+      EndProperty
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+   BeginProperty Recordset2 
+      CommandName     =   "OPBillPayments"
+      CommDispId      =   1010
+      RsDispId        =   1013
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      GroupingName    =   "OPBillPayments_Grouping"
+      IsRSReturning   =   -1  'True
+      NumFields       =   19
+      BeginProperty Field1 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "BillDate"
+         Caption         =   "BillDate"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "BillNo"
+         Caption         =   "BillNo"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "CreditYN"
+         Caption         =   "CreditYN"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "Discount"
+         Caption         =   "Discount"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "GrandTotal"
+         Caption         =   "GrandTotal"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "NetValue"
+         Caption         =   "NetValue"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "Bank"
+         Caption         =   "Bank"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DDDate"
+         Caption         =   "DDDate"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   0
+         Size            =   30
+         Scale           =   0
+         Type            =   200
+         Name            =   "DDNo"
+         Caption         =   "DDNo"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   200
+         Name            =   "PayType"
+         Caption         =   "PayType"
+      EndProperty
+      BeginProperty Field13 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "ADDRESS"
+         Caption         =   "ADDRESS"
+      EndProperty
+      BeginProperty Field14 
+         Precision       =   0
+         Size            =   250
+         Scale           =   0
+         Type            =   200
+         Name            =   "DIAGNOSIS"
+         Caption         =   "DIAGNOSIS"
+      EndProperty
+      BeginProperty Field15 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DOCNAME"
+         Caption         =   "DOCNAME"
+      EndProperty
+      BeginProperty Field16 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "PCODE"
+         Caption         =   "PCODE"
+      EndProperty
+      BeginProperty Field17 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "PNAME"
+         Caption         =   "PNAME"
+      EndProperty
+      BeginProperty Field18 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "TELNO"
+         Caption         =   "TELNO"
+      EndProperty
+      BeginProperty Field19 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "TRETMNTDT"
+         Caption         =   "TRETMNTDT"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   1
+      BeginProperty P1 
+         RealName        =   "Param1"
+         UserName        =   "BillNo"
+         Direction       =   1
+         Precision       =   0
+         Scale           =   0
+         Size            =   0
+         DataType        =   3
+         HostType        =   2
+         Required        =   -1  'True
+      EndProperty
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+   BeginProperty Recordset3 
+      CommandName     =   "IPDailyBillReport"
+      CommDispId      =   1020
+      RsDispId        =   1027
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      Grouping        =   -1  'True
+      GroupingName    =   "IPDailyBillReport_Grouping"
+      IsRSReturning   =   -1  'True
+      NumFields       =   9
+      BeginProperty Field1 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "Bank"
+         Caption         =   "Bank"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DDDate"
+         Caption         =   "DDDate"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   30
+         Scale           =   0
+         Type            =   200
+         Name            =   "DDNo"
+         Caption         =   "DDNo"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   200
+         Name            =   "PayType"
+         Caption         =   "PayType"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "BillNo"
+         Caption         =   "BillNo"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "NAME"
+         Caption         =   "NAME"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DOCEXAMINED"
+         Caption         =   "DOCEXAMINED"
+      EndProperty
+      NumGroups       =   2
+      BeginProperty Grouping1 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Grouping2 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      ParamCount      =   1
+      BeginProperty P1 
+         RealName        =   "Param1"
+         UserName        =   "BillDate"
+         Direction       =   1
+         Precision       =   0
+         Scale           =   0
+         Size            =   0
+         DataType        =   3
+         HostType        =   12
+         Required        =   -1  'True
+      EndProperty
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+   BeginProperty Recordset4 
+      CommandName     =   "OPDailyPayments"
+      CommDispId      =   1033
+      RsDispId        =   1037
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      Grouping        =   -1  'True
+      GroupingName    =   "Command1_Grouping"
+      SummaryExpanded =   -1  'True
+      DetailExpanded  =   -1  'True
+      IsRSReturning   =   -1  'True
+      NumFields       =   13
+      BeginProperty Field1 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "TRETMNTDT"
+         Caption         =   "TRETMNTDT"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "TELNO"
+         Caption         =   "TELNO"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "PNAME"
+         Caption         =   "PNAME"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DOCNAME"
+         Caption         =   "DOCNAME"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   250
+         Scale           =   0
+         Type            =   200
+         Name            =   "DIAGNOSIS"
+         Caption         =   "DIAGNOSIS"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "ADDRESS"
+         Caption         =   "ADDRESS"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "BillNo"
+         Caption         =   "BillNo"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   0
+         Size            =   20
+         Scale           =   0
+         Type            =   200
+         Name            =   "Bank"
+         Caption         =   "Bank"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DDDate"
+         Caption         =   "DDDate"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   0
+         Size            =   30
+         Scale           =   0
+         Type            =   200
+         Name            =   "DDNo"
+         Caption         =   "DDNo"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Field13 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   200
+         Name            =   "PayType"
+         Caption         =   "PayType"
+      EndProperty
+      NumGroups       =   2
+      BeginProperty Grouping1 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "PaidDate"
+         Caption         =   "PaidDate"
+      EndProperty
+      BeginProperty Grouping2 
+         Precision       =   16
+         Size            =   8
+         Scale           =   0
+         Type            =   5
+         Name            =   "AmountPaid"
+         Caption         =   "AmountPaid"
+      EndProperty
+      ParamCount      =   1
+      BeginProperty P1 
+         RealName        =   "Param1"
+         UserName        =   "BillDate"
+         Direction       =   1
+         Precision       =   0
+         Scale           =   0
+         Size            =   0
+         DataType        =   3
+         HostType        =   12
+         Required        =   -1  'True
+      EndProperty
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+   BeginProperty Recordset5 
+      CommandName     =   "Discharge"
+      CommDispId      =   1038
+      RsDispId        =   1043
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      IsRSReturning   =   -1  'True
+      NumFields       =   12
+      BeginProperty Field1 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "BEDNO"
+         Caption         =   "BEDNO"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "DAYSINHOS"
+         Caption         =   "DAYSINHOS"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DIAGNOSIS"
+         Caption         =   "DIAGNOSIS"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DOA"
+         Caption         =   "DOA"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "DOCNAME"
+         Caption         =   "DOCNAME"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   8
+         Scale           =   0
+         Type            =   7
+         Name            =   "DOD"
+         Caption         =   "DOD"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "PCODE"
+         Caption         =   "PCODE"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "PNAME"
+         Caption         =   "PNAME"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "ROOMRENT"
+         Caption         =   "ROOMRENT"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "ROOMTYPE"
+         Caption         =   "ROOMTYPE"
+      EndProperty
+      BeginProperty Field11 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "TOTALAMT"
+         Caption         =   "TOTALAMT"
+      EndProperty
+      BeginProperty Field12 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   200
+         Name            =   "WARDNAME"
+         Caption         =   "WARDNAME"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   1
+      BeginProperty P1 
+         RealName        =   "Param1"
+         UserName        =   "Code"
+         Direction       =   1
+         Precision       =   0
+         Scale           =   0
+         Size            =   0
+         DataType        =   3
+         HostType        =   12
+         Required        =   -1  'True
+      EndProperty
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+End
+Attribute VB_Name = "DataEnvironment1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Private Sub rsIPBillPayments_WillChangeField(ByVal cFields As Long, ByVal Fields As Variant, adStatus As ADODB.EventStatusEnum, ByVal pRecordset As ADODB.Recordset)
+
+End Sub
